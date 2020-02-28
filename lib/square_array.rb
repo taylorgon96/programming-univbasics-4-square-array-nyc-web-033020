@@ -3,8 +3,8 @@ def square_array(array)
  arr = []
  
   while i < array.size do
-   arr << "#{i} * #{i}"
+   arr << i * i
    i += 1
-   return arr << "#{i} * #{i}"
+   return arr << i * i
  end 
 end
