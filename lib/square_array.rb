@@ -1,10 +1,11 @@
 def square_array(array)
- i = 1
+ numbers = [1,2,3]
+ i = 0
  arr = []
  
-  while i < array.size do
-   arr << i * 2
+  while i < numbers.size do
+   arr << i ** i 
    i += 1
-   p arr << i * 2
+   p arr << i ** i 
  end 
 end
