@@ -5,5 +5,6 @@ def square_array(array)
   while i < array.size + 1 do
    p arr << "#{i} ** #{i}"
    i += 1
+   return  arr << "#{i} ** #{i}"
  end 
 end
