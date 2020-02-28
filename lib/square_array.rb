@@ -1,5 +1,5 @@
 def square_array(array)
- i = 0
+ i = 1
  arr = []
  
   while i < array.size + 1 do
