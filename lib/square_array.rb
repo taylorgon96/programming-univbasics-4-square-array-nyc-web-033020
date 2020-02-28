@@ -1,6 +1,6 @@
 def square_array(array)
  numbers = [1,2,3]
- i = 0
+ i = 1
  arr = []
  
   while i < numbers.size do
