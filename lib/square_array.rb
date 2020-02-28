@@ -4,8 +4,8 @@ def square_array(array)
  arr = []
  
   while i < numbers.size do
-   arr << i ** i 
+   arr << i * i 
    i += 1
-   p arr << i ** i 
+   p arr << i * i 
  end 
 end
