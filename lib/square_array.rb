@@ -1,10 +1,10 @@
 def square_array(array)
  i = 0
+ arr = []
  
  while i < array.size do
-  puts "#{i} ** #{i}"
+  p "#{i} ** #{i}"
   i += 1
- 
-  square_array(array)
+  
 end 
 end
