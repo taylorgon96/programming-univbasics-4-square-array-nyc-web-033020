@@ -1,11 +1,19 @@
 def square_array(array)
- numbers = [1,2,3]
  arr = []
- i = 1
+ i = 0
  
   while i < numbers.size do
-   arr << i * i 
+   arr.push(array[i] * array[i])
    i += 1
-   p arr << i * i 
  end 
+end
+
+def square_array(numbers)
+  new_array = []
+  counter = 0 
+  while counter < numbers.length()
+  new_array.push(numbers[counter] * numbers[counter])
+  counter += 1
+  end 
+  return new_array
 end
