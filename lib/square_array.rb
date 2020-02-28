@@ -6,6 +6,5 @@ def square_array(array)
    arr << #{i} ** #{i}
    i += 1
    return arr << #{i} ** #{i}
-
   end 
 end
